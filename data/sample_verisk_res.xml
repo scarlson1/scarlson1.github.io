@@ -1,0 +1,288 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns1:calculateRecalculatableValuationResponse xmlns:ns1="http://valuationWebService.services.web.ivplugin.underwriting.verisk.com/"><return><calculatedValue>2801435.58</calculatedValue><pricingChanged>false</pricingChanged><report>&lt;CONTEXT>
+    &lt;RESIDENTIAL_REPORT reportVersion="AB8U-N3TR.1" createdByName="iDemand Insurance Agency (webservices@idemandinsurance.com)" iScore="1.0" rangeLow="2599187.00" companyName="iDemand Insurance Agency" recalculated="0" enteredByLastName="Insurance Agency" localeCountry="US" enteredById="webservices@idemandinsurance.com" locale="en_US" valuationId="AB8U-N3TR" ownerId="webservices@idemandinsurance.com" hasMinimalPushPinInfo="0" rangeHigh="3003683.00" dateCreated="04/24/2023" htmlWindowTitle="360Value Replacement Cost Valuation AB8U-N3TR.1" ownerName="iDemand Insurance Agency (webservices@idemandinsurance.com)" enteredByFirstName="iDemand" costPerSqft="478.14" enteredByName="iDemand Insurance Agency (webservices@idemandinsurance.com)" seismicZone="0" iteration="1" ownerFirstName="iDemand" fromFileVersion="1" priceListName="MNMNXV_APR23" priceListArea="Minneapolis, Minnesota" valuationType="7" createdById="webservices@idemandinsurance.com" createdByLabel="Created By" detachedStructuresCalculatedValue=".00" ownerLastName="Insurance Agency" createdByFirstName="iDemand" createdFor="iDemand Insurance Agency" schemaVersion="20110115" calcVersion="23.1.21" calculatedValue="2801435.58" trainingMode="0" createdByLastName="Insurance Agency" fakeCalc="0" ownedByLabel="User" localeLanguage="en" climateZone="6" dateCalculated="04/24/2023">
+        &lt;OWNER_INFORMATION latitude="45.003344" longitude="-93.528942">
+            &lt;ANSWER valueSrc="USER" default="" id="STREET" type="STRING" value="1382 HUNTER DR" desc="Street"/>
+            &lt;ANSWER valueSrc="USER" default="" id="STREET_NUM" type="STRING" value="1382" desc="Street Number"/>
+            &lt;ANSWER valueSrc="USER" default="" id="STREET_NAME" type="STRING" value="HUNTER" desc="Street Name"/>
+            &lt;ANSWER valueSrc="USER" default="" id="STREET_TYPE" type="STRING" value="DR" desc="Type"/>
+            &lt;ANSWER valueSrc="USER" id="CITY" type="STRING" value="WAYZATA" desc="City"/>
+            &lt;ANSWER valueSrc="USER" id="ZIP" type="STRING" value="55391" desc="ZIP/Postal"/>
+            &lt;ANSWER valueSrc="USER" valueCode="MN" id="STATE" type="CHOICE" value="Minnesota" desc="State/Province"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="USER" defaultCode="USA" default="USA" valueCode="USA" id="COUNTRY" type="CHOICE" value="USA" desc="Country"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="IS_OWNER_OCCUPIED" type="BOOL" value="1" desc="Home Is Owner Occupied"/>
+        &lt;/OWNER_INFORMATION>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="USER" default="1960" id="YEAR_BUILT" type="INTEGER" value="1960" desc="Year Built"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="USER" default="5859" id="USER_TOTAL_SF" type="INTEGER" value="5859" desc="Sq. Feet"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="FUNCTIONAL_COST" type="BOOL" value="0" desc="Use Functional Replacement Cost"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="USER" defaultCode="P" default="Premium" valueCode="P" id="STRUCT_QUALITY" type="CHOICE" value="Premium" desc="Home Quality Grade"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="100" id="HALF_STORY_FIN_PERCENT" type="PERCENT" value="100" desc="Percent of half story or attic that is finished"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="NUM_DORMERS" type="COUNT" value="0" desc="Number of Dormers"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="WALK_OUT" type="BOOL" value="0" desc="Walk-out Basement"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="BASEMENT_INCLUDED" type="BOOL" value="0" desc="Above sq. ft. includes finished basement area"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="BASEMENT_FIN_PERCENT" type="PERCENT" value="0" desc="Percent of lowest level that is finished"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="8" id="AVG_INT_HEIGHT" type="DECIMAL" value="8" desc="Average Wall Height"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="HAS_HCP" type="BOOL" value="0" desc="Accessible Home"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="63" id="ACV_ACTUAL_AGE" type="COUNT" value="63" desc="Age"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="Average" id="ACV_CONDITION" type="STRING" value="Average" desc="Condition"/>
+        &lt;ANSWER valueSrc="USER" id="ALWAYS_SHOW_ANSWERS" type="STRING" value="" desc="Ids for ANSWER tags to always show on the reports (comma delimited with no spaces)"/>
+        &lt;ANSWER valueSrc="USER" id="ALWAYS_SHOW_GROUPS" type="STRING" value="" desc="Ids for GROUP tags to always show on the reports (comma delimited with no spaces)"/>
+        &lt;ANSWER valueSrc="USER" id="ALWAYS_SHOW_TAGS" type="STRING" value="" desc="Tags to always show on the reports (comma delimited with no spaces)"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="5859" id="ASF" type="INTEGER" value="5859" desc="Above Grade Square Footage"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="BSF" type="INTEGER" value="0" desc="Below Grade Square Footage"/>
+        &lt;ANSWER valueSrc="USER" id="HIDDEN_REPORT_QUESTIONS" type="STRING" value="OH_WS,POOL_ON_PROPERTY,S,BASEMENT_INCLUDED,HOME_PHONE,EMAIL,WORK_PHONE,FORCE_NON_NADA,WNM,PHONE,OH_HW,IS_HISTORICAL_HOME,EXCLUDE_FOUNDATION,ACV_CONDITION,PHONE_B,OH_WS,OH_HW" desc="Ids for questions to hide on the reports (comma delimited with no spaces)"/>
+        &lt;ANSWER valueSrc="USER" default="0" id="CHARACTERISTICS_CHANGED" type="BOOL" value="0" desc="Not for display, holds value of a flag indicating that the characteristics of the valuation have changed"/>
+        &lt;ANSWER valueSrc="USER" default="0" id="QUESTION_VALUES_CHANGED" type="BOOL" value="0" desc="Not for display, holds value of a flag indicating that ANY of the characteristics of the valuation have changed"/>
+        &lt;ANSWER valueSrc="USER" default="0" id="QUESTION_VALUES_CHANGED_EVER" type="BOOL" value="0" desc="Not for display, holds value of a flag indicating that ANY of the characteristics of the valuation have changed since the first version"/>
+        &lt;ANSWER valueSrc="USER" default="0" id="PRICING_CHANGED" type="BOOL" value="0" desc="Not for display, holds the value of a flag indicating that the pricing data for a valuation has changed"/>
+        &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="U" default="Unknown" valueCode="U" id="S" type="CHOICE" value="Unknown" desc="Style"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="U" default="8-10 Corners - T,U,Z Shape" valueCode="U" id="SH" type="CHOICE" value="8-10 Corners - T,U,Z Shape" desc="Foundation Shape"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="1" default="1 Story" valueCode="1" id="P" type="CHOICE" value="1 Story" desc="Most Prevalent Number of Stories"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="N" default="None (0 - 15 degrees)" valueCode="N" id="SL" type="CHOICE" value="None (0 - 15 degrees)" desc="Property Slope"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="N" default="Average - No Unusual Constraints" valueCode="N" id="SA" type="CHOICE" value="Average - No Unusual Constraints" desc="Site Access"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="H" default="Hip" valueCode="H" id="RO" type="CHOICE" value="Hip" desc="Roof Shape"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="1" default="Single Family Detached" valueCode="1" id="PU" type="CHOICE" value="Single Family Detached" desc="Use"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" id="LOT_SIZE" type="INTEGER" value="326700" desc="Lot Size"/>
+        &lt;ANSWER defaultSrc="PUSHPIN" id="ARCHITECTURAL_STYLE" type="STRING" value="Ranch/Rambler" desc="Architectural Style"/>
+        &lt;GROUP id="SMARTSOURCE_SCORES" type="INTEGER" desc="SmartSource Scores">
+            &lt;ANSWER id="AC_SCORE" type="INTEGER" value="2" desc="COOLING SCORE"/>
+            &lt;ANSWER id="BATHROOM_SCORE" type="INTEGER" value="2" desc="BATHROOM COUNT SCORE"/>
+            &lt;ANSWER id="EWF_SCORE" type="INTEGER" value="3" desc="EXTERIOR WALL FINISH SCORE"/>
+            &lt;ANSWER id="EWT_SCORE" type="INTEGER" value="2" desc="EXTERIOR WALL CONSTRUCTION SCORE"/>
+            &lt;ANSWER id="FP_SCORE" type="INTEGER" value="2" desc="FIREPLACES SCORE"/>
+            &lt;ANSWER id="HA_SCORE" type="INTEGER" value="2" desc="HEATING SCORE"/>
+            &lt;ANSWER id="P_SCORE" type="INTEGER" value="2" desc="NUMBER OF STORIES SCORE"/>
+            &lt;ANSWER id="RC_SCORE" type="INTEGER" value="3" desc="ROOF COVER SCORE"/>
+            &lt;ANSWER id="PROPERTY_SCORE" type="INTEGER" value="4" desc="SMARTSOURCE PROPERTY SCORE"/>
+            &lt;ANSWER id="USER_TOTAL_SF_SCORE" type="INTEGER" value="2" desc="SQUARE FEET SCORE"/>
+            &lt;ANSWER id="YEAR_BUILT_SCORE" type="INTEGER" value="4" desc="YEAR BUILT SCORE"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="WM" type="PERCENT" desc="Interior Wall Material">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="100" id="DRY12" type="PERCENT" value="100" desc="Drywall"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="P" type="PERCENT" desc="Number of Stories">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="100" id="1" type="PERCENT" value="100" desc="1 Story"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="ELF" type="COUNT" desc="Electrical Features">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="400" type="COUNT" value="1" desc="Electrical Service Size - 400 amp"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="NOOK" type="COUNT" desc="Nooks">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_NOOK_LARGE" type="COUNT" value="1" desc="Large - (14&amp;apos;x12&amp;apos;)"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_NOOK_XLARGE" type="COUNT" value="1" desc="Extra Large - (16&amp;apos;x14&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="FP" type="COUNT" desc="Fireplaces">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="2" id="ZFIR" type="COUNT" value="2" desc="Zero Clearance Fireplace"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="SA" type="BOOL" desc="Site Access">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="1" id="N" type="BOOL" value="1" desc="Average - No Unusual Constraints"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="LCD" id="F" type="PERCENT" desc="Foundation Type">
+            &lt;ANSWER defaultSrc="LCD" valueSrc="LCD" default="100" id="B" type="PERCENT" value="100" desc="Basement"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="DINING" type="COUNT" desc="Dining Rooms">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_DINING_XLARGE" type="COUNT" value="1" desc="Extra Large - (22&amp;apos;x16&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="FM" type="PERCENT" desc="Foundation Material">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="100" id="BL" type="PERCENT" value="100" desc="Block"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="FC" type="PERCENT" desc="Floor Coverings">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="100" id="WU" type="PERCENT" value="100" desc="Wood - Unknown Type"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="DEN" type="COUNT" desc="Dens/Offices">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_DEN_LARGE" type="COUNT" value="1" desc="Large - (20&amp;apos;x14&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="EW" type="COUNT" desc="Specialty Windows">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="13" id="SPC" type="COUNT" value="13" desc="Specialty Window"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="LAUNDRY" type="COUNT" desc="Laundry Rooms">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="ROOM_LAUNDRY_LARGE" type="COUNT" value="2" desc="Large - (12&amp;apos;x10&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="RC" type="PERCENT" desc="Roof Cover">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="100" id="W" type="PERCENT" value="100" desc="Wood Shingles or Shakes"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="AC" type="COUNT" desc="Air Conditioning">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="1" id="HP" type="COUNT" value="1" desc="Heat Pump - Heat/Cool System"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="AF" type="COUNT" desc="Other Interior Features">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="15" id="SPK" type="COUNT" value="15" desc="Built-in Speaker System"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="BTSP" type="COUNT" value="1" desc="Built-in Theater Speaker System"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="BT" type="COUNT" value="1" desc="Built-in Theater Video Proj. System"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="SC" type="COUNT" value="1" desc="Surveillance Cameras and Monitors"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="BTV" type="COUNT" value="1" desc="Built-in Large Screen TV"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="BS" type="COUNT" value="1" desc="Built-in Safe"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="WB" type="COUNT" value="1" desc="Wet Bar"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="LTUB" type="COUNT" value="1" desc="Laundry Tub"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="WS" type="COUNT" value="2" desc="Window Seat"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="HALLWAY" type="COUNT" desc="Hallways">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="4" id="ROOM_HALLWAY_XLARGE" type="COUNT" value="4" desc="Extra Large - (15&amp;apos;x8&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="LIVING" type="COUNT" desc="Living Areas">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="ROOM_LIVING_XLARGE" type="COUNT" value="2" desc="Extra Large - (22&amp;apos;x16&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="STR" type="COUNT" desc="Staircases and Conveyances">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="OS" type="COUNT" value="2" desc="Staircase - Ornate"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="OSC" type="COUNT" value="1" desc="Staircase - Ornate Curved"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="IF" type="COUNT" desc="Interior Doors and Millwork">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="7" id="BB" type="COUNT" value="7" desc="Built-in Bookcase/Entertain. Center"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="BD" type="COUNT" value="1" desc="Built-in Desk/Vanity"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="8" type="COUNT" value="1" desc="8&amp;apos; High Doors"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="6" id="ARC" type="COUNT" value="6" desc="Arched Top Doors"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="3" id="FDOR" type="COUNT" value="3" desc="French Doors"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="DFD" type="COUNT" value="1" desc="Double French Doors"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="CL" type="COUNT" value="2" desc="Cedar-lined Closet"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="ED" type="COUNT" desc="Exterior Doors">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="5" id="XDOR" type="COUNT" value="5" desc="Exterior Doors"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ARC" type="COUNT" value="1" desc="Arched Top Exterior Doors"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="3" id="PAT" type="COUNT" value="3" desc="Sliding Patio Door"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="ROS" type="PERCENT" desc="Roof Construction">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="100" id="WF" type="PERCENT" value="100" desc="Wood Framed"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="FOYER" type="COUNT" desc="Entry/Foyer">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_FOYER_LARGE" type="COUNT" value="1" desc="Large - (14&amp;apos;x12&amp;apos;)"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_FOYER_XLARGE" type="COUNT" value="1" desc="Extra Large - (16&amp;apos;x14&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="LT" type="COUNT" desc="Lighting">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="3" id="CHNC" type="COUNT" value="3" desc="Ornate Chandelier"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="4" id="CHNCC" type="COUNT" value="4" desc="Chandelier with Real Crystal"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="8" id="CF" type="COUNT" value="8" desc="Ceiling Fan"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="4" id="TL" type="COUNT" value="4" desc="Track Lighting"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="18" id="RCL" type="COUNT" value="18" desc="Recessed Light"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="EWT" type="PERCENT" desc="Exterior Wall Construction">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="100" id="FRW" type="PERCENT" value="100" desc="Wood Framing"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="BATHROOM" type="COUNT" desc="Bathrooms">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="4" id="ROOM_BATHROOM_HALF" type="COUNT" value="4" desc="Half Bath"/>
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="2" id="ROOM_BATHROOM_FULL" type="COUNT" value="2" desc="Full Bath"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="HA" type="COUNT" desc="Heating">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="1" id="RF" type="COUNT" value="1" desc="Radiant Floor Heating System"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="WNM" type="COUNT" desc="Windows">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="70" id="WD" type="COUNT" value="70" desc="Wood"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="IWF" type="PERCENT" desc="Interior Wall Finish">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="25" id="PNT" type="PERCENT" value="25" desc="Paint"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="25" id="FPNT" type="PERCENT" value="25" desc="Faux Finish (Rag, Sponge, etc.)"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="40" id="WPR" type="PERCENT" value="40" desc="Wallpaper"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="10" id="CPNL" type="PERCENT" value="10" desc="Paneling - Custom"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="CF" type="PERCENT" desc="Ceiling Finish">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="50" id="PNT" type="PERCENT" value="50" desc="Paint"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="50" id="FPNT" type="PERCENT" value="50" desc="Faux Finish (Rag, Sponge, etc.)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="UTILITY" type="COUNT" desc="Utility Rooms">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="ROOM_UTILITY_XLARGE" type="COUNT" value="2" desc="Extra Large - (15&amp;apos;x12&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="EWF" type="PERCENT" desc="Exterior Wall Finish">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="100" id="W" type="PERCENT" value="100" desc="Siding - Cedar (Clapboard)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="PUSHPIN" id="BEDROOM" type="COUNT" desc="Bedrooms">
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="1" id="ROOM_BEDROOM_LARGE" type="COUNT" value="1" desc="Large - (14&amp;apos;x12&amp;apos;)"/>
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" default="1" id="ROOM_BEDROOM_XLARGE" type="COUNT" value="1" desc="Extra Large - (16&amp;apos;x14&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="KITCHEN" type="COUNT" desc="Kitchens">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_KITCHEN_LARGE" type="COUNT" value="1" desc="Large - (15&amp;apos;x11&amp;apos;)"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="ROOM_KITCHEN_XLARGE" type="COUNT" value="1" desc="Extra Large - (18&amp;apos;x12&amp;apos;)"/>
+        &lt;/GROUP>
+        &lt;GROUP defaultSrc="IH" id="AFP" type="COUNT" desc="Fireplace Details">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="MH" type="COUNT" value="2" desc="Marble Hearth"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="CM" type="COUNT" value="2" desc="Custom Mantel"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="SF" type="COUNT" value="2" desc="Stone Face"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="GL" type="COUNT" value="2" desc="Gas Log Set"/>
+        &lt;/GROUP>
+        &lt;GROUP id="REPREQ" type="BOOL" desc="Requirments for the reports (i.e. State regulations, company requirements, etc.)">
+            &lt;ANSWER valueSrc="USER" default="0" id="COMBINE_PERMIT_AND_ARCH_ON_REPORT" type="BOOL" value="1" desc="Combine permits and architect fees as a cost breakdown on the report"/>
+        &lt;/GROUP>
+        &lt;GROUP id="ADDITIONAL_PUSHPIN_INFO" type="COUNT" desc="Additional Pushpin values">
+            &lt;ANSWER id="PUSHPIN_CONSTRUCTION_METHOD" type="STRING" desc="Construction Method"/>
+            &lt;ANSWER id="PUSHPIN_BASEMENT_SQFT" type="INTEGER" desc="Basement Area Sq. Ft."/>
+            &lt;ANSWER id="PUSHPIN_UNITS_IN_BLDG" type="COUNT" desc="Units in Building"/>
+            &lt;ANSWER id="PUSHPIN_TOTAL_ROOMS" type="COUNT" desc="Total Rooms"/>
+            &lt;ANSWER id="PUSHPIN_TAX_YEAR" type="INTEGER" desc="Tax Year"/>
+            &lt;ANSWER id="PUSHPIN_BLDG_VALUE" type="DECIMAL" desc="Assessed Building Value"/>
+            &lt;ANSWER id="TIME_STAMP_DATE" type="STRING" desc="Last Requested"/>
+        &lt;/GROUP>
+        &lt;ADDITIONAL_INFO affluenceFactor="0.878" meanZipTLA="2388" zipTLAStandardDeviation="1384"/>
+        &lt;COST_BREAKDOWN id="COST_BD" desc="Estimated Cost Breakdown">
+            &lt;ANSWER id="ADDTL" calculatedValue="52709.49" type="DECIMAL" desc="Additional Features"/>
+            &lt;ANSWER id="AE" calculatedValue="0.00" type="DECIMAL" desc="Alternative Energy"/>
+            &lt;ANSWER id="APP" calculatedValue="56737.75" type="DECIMAL" desc="Appliances"/>
+            &lt;ANSWER id="ARCH_FEES" calculatedValue="129057.80" type="DECIMAL" desc="Architect Fees"/>
+            &lt;ANSWER id="DR" calculatedValue="0.00" type="DECIMAL" desc="Demolition and Debris Removal"/>
+            &lt;ANSWER id="ELE" calculatedValue="40883.02" type="DECIMAL" desc="Electrical"/>
+            &lt;ANSWER id="EXT" calculatedValue="161031.28" type="DECIMAL" desc="Exterior Finish"/>
+            &lt;ANSWER id="FLR" calculatedValue="108121.15" type="DECIMAL" desc="Floor Covering"/>
+            &lt;ANSWER id="FND" calculatedValue="164288.20" type="DECIMAL" desc="Foundation"/>
+            &lt;ANSWER id="HVC" calculatedValue="103131.27" type="DECIMAL" desc="Heating/AC"/>
+            &lt;ANSWER id="INT" calculatedValue="639125.66" type="DECIMAL" desc="Interior Finish"/>
+            &lt;ANSWER id="OFT" calculatedValue="85845.11" type="DECIMAL" desc="Other Fees and Taxes"/>
+            &lt;ANSWER id="O_AND_P" calculatedValue="466905.93" type="DECIMAL" desc="Overhead and Profit"/>
+            &lt;ANSWER id="PERMIT" calculatedValue="25505.49" type="DECIMAL" desc="Permits"/>
+            &lt;ANSWER id="PLM" calculatedValue="61816.70" type="DECIMAL" desc="Plumbing"/>
+            &lt;ANSWER id="PS" calculatedValue="0.00" type="DECIMAL" desc="Pools &amp;amp; Spas"/>
+            &lt;ANSWER id="STR" calculatedValue="0.00" type="DECIMAL" desc="Pre-Engineered Metal Structure"/>
+            &lt;ANSWER id="RFG" calculatedValue="249916.31" type="DECIMAL" desc="Roofing"/>
+            &lt;ANSWER id="FRM" calculatedValue="260445.59" type="DECIMAL" desc="Rough Framing"/>
+            &lt;ANSWER id="SAL" calculatedValue="0.00" type="DECIMAL" desc="Site Access Labor"/>
+            &lt;ANSWER id="SPEC" calculatedValue="74233.20" type="DECIMAL" desc="Specialty Features"/>
+            &lt;ANSWER id="SUP" calculatedValue="13434.60" type="DECIMAL" desc="Supervision"/>
+            &lt;ANSWER id="WIN" calculatedValue="108247.02" type="DECIMAL" desc="Windows"/>
+        &lt;/COST_BREAKDOWN>
+        &lt;DECK id="DECK0" desc="Deck">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1000" id="DECK_SQFT" type="INTEGER" value="1000" desc="Square Footage"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="2" default="Polymer Deck" valueCode="2" id="DECK_STYLE" type="CHOICE" value="Polymer Deck" desc="Material"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="100" id="DECK_COVERED_PERCENT" type="PERCENT" value="100" desc="Covered"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="DECK_ENCLOSED_PERCENT" type="PERCENT" value="0" desc="Enclosed"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="2" default="Irregular" valueCode="2" id="DECK_SHAPE" type="CHOICE" value="Irregular" desc="Shape"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="4" id="DECK_AVG_HEIGHT" type="COUNT" value="4" desc="Height"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="3" id="DECK_NUM_LEVELS" type="COUNT" value="3" desc="Levels"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="25" id="DECK_LINEAL_FOOT" type="COUNT" value="25" desc="Benches Length(ft)"/>
+        &lt;/DECK>
+        &lt;FIREPLACE defaultSrc="PUSHPIN" valueSrc="PUSHPIN" id="FIREPLACE0" type="ZFIR" desc="Zero Clearance Fireplace">
+            &lt;GROUP defaultSrc="IH" id="AFP" type="COUNT" desc="Fireplace Details">
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="MH" type="COUNT" value="1" desc="Marble Hearth"/>
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="CM" type="COUNT" value="1" desc="Custom Mantel"/>
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="SF" type="COUNT" value="1" desc="Stone Face"/>
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="GL" type="COUNT" value="1" desc="Gas Log Set"/>
+            &lt;/GROUP>
+        &lt;/FIREPLACE>
+        &lt;FIREPLACE defaultSrc="PUSHPIN" valueSrc="PUSHPIN" id="FIREPLACE1" type="ZFIR" desc="Zero Clearance Fireplace">
+            &lt;GROUP defaultSrc="IH" id="AFP" type="COUNT" desc="Fireplace Details">
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="MH" type="COUNT" value="1" desc="Marble Hearth"/>
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="CM" type="COUNT" value="1" desc="Custom Mantel"/>
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="SF" type="COUNT" value="1" desc="Stone Face"/>
+                &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="1" id="GL" type="COUNT" value="1" desc="Gas Log Set"/>
+            &lt;/GROUP>
+        &lt;/FIREPLACE>
+        &lt;GARAGE id="GARAGE0" desc="Garage">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="3" default="3 Car (673 - 780 sq. ft.)" valueCode="3" id="GARAGE_CARS" type="CHOICE" value="3 Car (673 - 780 sq. ft.)" desc="# Cars"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="1" default="Attached / Built-In" valueCode="1" id="GARAGE_STYLE" type="CHOICE" value="Attached / Built-In" desc="Style"/>
+        &lt;/GARAGE>
+        &lt;PORCH id="PORCH0" desc="Porch">
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="400" id="PORCH_SQFT" type="INTEGER" value="400" desc="Square Footage"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="5" default="Exposed Aggregate Porch" valueCode="5" id="PORCH_STYLE" type="CHOICE" value="Exposed Aggregate Porch" desc="Material"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="100" id="PORCH_COVERED_PERCENT" type="PERCENT" value="100" desc="Covered"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="50" id="PORCH_ENCLOSED_PERCENT" type="PERCENT" value="50" desc="Enclosed"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="PORCH_OUTDOOR_FIREPLACE" type="BOOL" value="0" desc="Outdoor Fireplace"/>
+        &lt;/PORCH>
+        &lt;QUALITY_WIZARD_INFORMATION>
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="W" default="Siding - Cedar (Clapboard)" valueCode="W" id="QwizMostPrefExtWall" type="CHOICE" value="Siding - Cedar (Clapboard)" desc="Exterior Wall Material"/>
+            &lt;ANSWER defaultSrc="PUSHPIN" valueSrc="PUSHPIN" defaultCode="W" default="Wood Shingles or Shakes" valueCode="W" id="QwizMostPrefRoof" type="CHOICE" value="Wood Shingles or Shakes" desc="Roof Material"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="WU" default="Wood - Unknown Type" valueCode="WU" id="QwizMostPrefFloor" type="CHOICE" value="Wood - Unknown Type" desc="Floor Covering (excluding carpet)"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" defaultCode="GN" default="Imported Granite or Marble" valueCode="GN" id="QwizMostPrefCountertop" type="CHOICE" value="Imported Granite or Marble" desc="Kitchen Counters"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="2" id="QwizJTubs" type="COUNT" value="2" desc="Jetted Tubs"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="QwizMostPrefWalkInCloset" type="COUNT" value="0" desc="Walk-in Closets"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="14" id="QwizTotalNumberOfDecorativeBeams" type="COUNT" value="14" desc="Decorative Beams"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="19" id="QwizTotalNumberOfRoomsWithCrownMolding" type="COUNT" value="19" desc="Rooms with Crown Molding"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="3" id="QwizCompositeOrnateAndOrnateCurvedStaircases" type="COUNT" value="3" desc="Ornate Staircases"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="9" id="QwizTotalNumberOfRoomsWithChairRail" type="COUNT" value="9" desc="Rooms with Chair Rail"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="QwizRoomsWithVaultedCeilings" type="COUNT" value="0" desc="Rooms with Cathedral/Vaulted Ceilings"/>
+            &lt;ANSWER defaultSrc="IH" valueSrc="IH" default="0" id="QwizRoomsWithTrayedCeilings" type="COUNT" value="0" desc="Rooms with Trayed/Coved Ceilings"/>
+        &lt;/QUALITY_WIZARD_INFORMATION>
+    &lt;/RESIDENTIAL_REPORT>
+&lt;/CONTEXT>
+</report><valuationId>AB8U-N3TR</valuationId></return></ns1:calculateRecalculatableValuationResponse></soap:Body></soap:Envelope>
